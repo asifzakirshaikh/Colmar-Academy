@@ -175,3 +175,17 @@ body {
         display: none;
     }
 }
+
+@media (max-width: 1180px){
+    .card1{
+       width: 320px;
+       margin-top: 10px;
+    }
+    .card2{
+        max-width: 325px !important;
+    }
+
+    .img-1{
+        display: none;
+    }
+}
