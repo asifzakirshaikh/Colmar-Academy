@@ -149,6 +149,21 @@ body {
 
 @media (max-width: 768px){
     .card1{
+       width: 330px;
+       margin-top: 10px;
+    }
+    .card2{
+        max-width: 325px !important;
+    }
+
+    .img-1{
+        display: none;
+    }
+}
+
+
+@media (max-width: 660px){
+    .card1{
        width: 320px;
        margin-top: 10px;
     }
