@@ -18,7 +18,7 @@ body {
     color: #ffffff;
    
     border-radius: 20px 20px 20px 20px;
-    border: 2px solid #4444446 !important;
+    border: 2px solid #444444 !important;
 }
 
 .btn-custom:hover {
@@ -149,7 +149,7 @@ body {
 
 @media (max-width: 768px){
     .card1{
-       width: 300px;
+       width: 320px;
        margin-top: 10px;
     }
     .card2{
