@@ -1,8 +1,5 @@
-
-
 body {
-	font-family: 'Jost';
-	
+	font-family: 'Jost';	
 }
 
 .bg-gray{
@@ -16,22 +13,17 @@ body {
 
     background-color: #444444 !important;
     color: #ffffff;
-   
-    border-radius: 20px 20px 20px 20px;
-    
+    border-radius: 20px 20px 20px 20px;  
 }
 
 .btn-custom:hover {
     background-color: #ED6436 !important;
     color: #ffffff;
-    
 }
 
 .card{
     height: 450px;
-    
 }
-
 
 .navbar .navbar-nav .nav-item .nav-link {
 	font-size: 1.1rem;
@@ -65,26 +57,10 @@ body {
     color: #1a7cc2 !important;
 }
 
-
-
 .text-orange {
 	color: #ED6436;
 }
-
-
-.rotate {
-  transition: transform .9s ease-in-out;
-}
-
-.rotate:hover {
-  transform: rotate(100deg);
-}
-
-
-
 /*---------------------------------animation---------------------*/
-
-
 .blink {
   animation-duration: 0.7s;
   animation-name: slidein;
@@ -155,7 +131,6 @@ body {
     .card2{
         max-width: 325px !important;
     }
-
     .img-1{
         display: none;
     }
@@ -170,7 +145,6 @@ body {
     .card2{
         max-width: 325px !important;
     }
-
     .img-1{
         display: none;
     }
