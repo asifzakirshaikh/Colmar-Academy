@@ -11,28 +11,12 @@
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <link href='https://fonts.googleapis.com/css?family=Jost' rel='stylesheet'>
-    <script type="text/javascript">
-      function reveal() {
-        var reveals = document.querySelectorAll(".reveal");
-
-        for (var i = 0; i < reveals.length; i++) {
-          var windowHeight = window.innerHeight;
-          var elementTop = reveals[i].getBoundingClientRect().top;
-          var elementVisible = 150;
-
-          if (elementTop < windowHeight - elementVisible) {
-            reveals[i].classList.add("active");
-          } else {
-            reveals[i].classList.remove("active");
-          }
-        }
-      }
-    </script>
+    
     <title>Colmar Academy</title>
   </head>
   <body>
 
- <nav class="navbar navbar-expand-lg navbar-light bg-light py-3 px-0">
+ <nav class="navbar navbar-expand-lg navbar-light bg-light py-3 sticky-top px-0">
       <div class="container px-lg-5">
         <button class="navbar-toggler" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
         <i class="fas fa-bars"></i>
